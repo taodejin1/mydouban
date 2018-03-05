@@ -16,11 +16,11 @@
                 <div class="right fr">
                     <img v-if="movie.images" :src="movie.images.large" width="100%">
                 </div>
-            </div>            
+            </div>
             <div class="marking clearfix">
                 <a href="#" class="fl">想看</a>
                 <a href="#" class="fr">看过</a>
-            </div> 
+            </div>
             <div class="content">
                 <h3>{{ movie.title }}的简介</h3>
                 <p>{{ movie.summary }}</p>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <scroller title="发现好电影" Type="onlyString" :items="movieTags"></scroller>
-        <download-app></download-app>      
+        <download-app></download-app>
     </div>
 </template>
 
@@ -79,7 +79,7 @@ export default{
         }
         .left{
             width: 70%;
-            
+
             .rating{
                 display: inline-block;
             }
