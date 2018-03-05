@@ -1,10 +1,10 @@
-> # A app use technologies with vue vue-router vuex axios
+> # A app use technologies with vue-cli vue-router vuex axios
 
 # install dependencies
-npm install     ||    cnpm install 
+npm install     ||    cnpm install
 ***
 
-# view in browser 
+# view in browser
 npm run dev
 ***
 
